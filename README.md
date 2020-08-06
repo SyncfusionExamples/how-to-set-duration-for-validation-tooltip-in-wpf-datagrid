@@ -4,6 +4,8 @@ How to set duration for validation ToolTip in WPF DataGrid (SfDataGrid)?  
 
 # About the sample
 
+In SfDataGrid, you can change the show duration for the validation error tooltip by setting ToolTipService.ShowDuration in style of the GridCell
+
 ```xml
 <Window.Resources>
     <ControlTemplate x:Key="ValidationToolTipTemplate">
