@@ -185,5 +185,7 @@ You can change the duration of the validation error tooltip by changing the dura
 </Window.Resources>
 ```
 
+KB article - [How to set duration for validation ToolTip in WPF DataGrid (SfDataGrid)?](https://www.syncfusion.com/kb/11890/how-to-set-duration-for-validation-tooltip-in-wpf-datagrid-sfdatagrid)
+  
 ## Requirements to run the demo
  Visual Studio 2015 and above versions
