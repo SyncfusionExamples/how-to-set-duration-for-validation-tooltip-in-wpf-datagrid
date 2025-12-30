@@ -1,10 +1,8 @@
-# How to set duration for validation ToolTip in WPF DataGrid (SfDataGrid)?  
+# How to Set Duration for Validation ToolTip in WPF DataGrid?
 
-This sample show cases how to set duration for validation ToolTip in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid)?
+This sample show cases how to set duration for validation ToolTip in [WPF DataGrid](https://www.syncfusion.com/wpf-controls/datagrid) (SfDataGrid).
 
-# About the sample
-
-You can change the duration of the validation error tooltip by changing the duration in the [ToolTipService.ShowDuration](https://docs.microsoft.com/en-us/dotnet/api/system.windows.controls.tooltipservice.showduration?view=netframework-4.7.2) of the [GridCell](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.GridCell.html) style in [WPF DataGrid](https://www.syncfusion.com/wpf-ui-controls/datagrid) (SfDataGrid).
+You can change the duration of the validation error tooltip by changing the duration in the `ToolTipService.ShowDuration` of the [GridCell](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.GridCell.html) style in `DataGrid`.
 
 ```xml
 <Window.Resources>
@@ -185,7 +183,4 @@ You can change the duration of the validation error tooltip by changing the dura
 </Window.Resources>
 ```
 
-KB article - [How to set duration for validation ToolTip in WPF DataGrid (SfDataGrid)?](https://www.syncfusion.com/kb/11890/how-to-set-duration-for-validation-tooltip-in-wpf-datagrid-sfdatagrid)
-  
-## Requirements to run the demo
- Visual Studio 2015 and above versions
+![DataGrid showing ToolTip with modified duration](DataGridShowingToolTip.gif)
